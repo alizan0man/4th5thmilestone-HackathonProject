@@ -1,0 +1,74 @@
+body {
+    background-image: url(https://img.freepik.com/free-photo/abstract-smooth-empty-grey-studio-well-use-as-background-business-report-digital-website-template-backdrop_1258-55967.jpg);
+    background-repeat: no repeat
+    
+}
+h1{
+    text-align: center;
+    color: black;
+
+}
+form{
+    max-width: 600px;
+    margin: auto;
+    background: rgb(112, 112, 112);
+    border-radius: 8px;
+    border-width: 5px 5px 5px 5px;
+    border-color: rgb(19, 18, 18);
+    border-style: groove;
+    box-shadow: 0 4px 8px rgb(10, 6, 6);
+    padding: 20px;
+}
+fieldset{
+    border: 2px solid rgb(12, 12, 12);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+legend{
+    font-weight: bold;
+    text-align: left;
+    color: rgb(14, 13, 13);
+}
+label{
+    display: block;
+    margin-top: 10px;
+    color: rgb(14, 13, 13);
+}
+input,textarea{
+    width: calc(100%-1px);
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid rgb(5, 5, 5);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+button{
+    display: block;
+    width: 90px;
+    height: 70px;
+    padding: 10px;
+    background: rgb(245, 241, 241);
+    color: black;
+    border: 3px solid black;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+button:hover{
+    background-color: rgb(236, 213, 213);
+}
+#resumeOutput{
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 8px;
+    border-color: black;
+    box-shadow: 0 4px 8px black;
+}
+#resumeOutput h2{
+    color: black;
+}
